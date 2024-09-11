@@ -1,0 +1,72 @@
+body{
+    background-color: #331D2C;
+}
+header, h1{
+    color: white;
+    width: max-content;
+    margin: auto;
+    font-size: 5rem;
+}
+#muveletek {
+    height: 280px;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+button{
+    color: white;
+    background-color: #008170;
+    border-radius: 15%;
+}
+button:active {
+    color: orange;
+    border: 2px solid orange;
+}
+
+#muveletek > button{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+#gombok > button{
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    padding: 0;
+}
+
+
+
+#vaz{
+    background-color: #0F0F0F;
+    border: 4px solid #232D3F;
+    border-radius: 10%;
+    width: max-content;
+    height: 500px;
+    padding: 25px 10px;
+    margin: 10px auto;
+}
+
+#monitor{
+    background-color: #FAF0E6;
+    height: 70px;
+    text-align: right;
+    margin: 25px 10px 0 10px;
+}
+
+#monitor h3{
+    margin: 20px 5px auto 0;
+}
+
+#monitor h2{
+    margin: auto 5px auto 0;
+}
+
+#muveletek > #afa{
+    width: 200px;
+    margin: auto;
+    display: none;
+}
